@@ -1,0 +1,929 @@
+@charset "utf-8";
+footer {
+    position: relative;
+    display: block;
+    z-index: 98;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    top: 148px;
+    left: 0;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    vertical-align: top;
+    text-align: center;
+}
+
+#FooterMenulerALani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-top: 1px solid #ccc;
+    outline: none;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#FooterMenulerSinirlamaAlani {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #f9f9f9;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media only screen and (min-width:1200px) {
+    /* XL */
+    #FooterMenulerSinirlamaAlani {
+        width: 1175px;
+        min-width: 1175px;
+        max-width: 1175px;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    /* L M S XS */
+    #FooterMenulerSinirlamaAlani {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+.FooterMenuleriSutunlarAlani {
+    display: inline-block;
+    float: left;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+}
+
+@media only screen and (min-width:1200px) {
+    /* XL */
+    .FooterMenuleriSutunlarAlani {
+        width: 25%;
+        min-width: 25%;
+        min-width: 25%;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    /* L */
+    .FooterMenuleriSutunlarAlani {
+        width: 25%;
+        min-width: 25%;
+        min-width: 25%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    /* M */
+    .FooterMenuleriSutunlarAlani {
+        width: 25%;
+        min-width: 25%;
+        min-width: 25%;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    /* S */
+    .FooterMenuleriSutunlarAlani {
+        width: 50%;
+        min-width: 50%;
+        min-width: 50%;
+    }
+    .FooterMenuleriSutunlarTemizlemeAlani {
+        clear: both;
+    }
+}
+
+@media only screen and (max-width:574px) {
+    /* XS */
+    .FooterMenuleriSutunlarAlani {
+        width: 100%;
+        min-width: 100%;
+        min-width: 100%;
+    }
+}
+
+.FooterMenuleriSutunlariBaslikAlani {
+    display: block;
+    width: -webkit-calc(100% - 10px);
+    width: -moz-calc(100% - 10px);
+    width: -o-calc(100% - 10px);
+    width: -ms-calc(100% - 10px);
+    width: calc(100% - 10px);
+    min-width: -webkit-calc(100% - 10px);
+    min-width: -moz-calc(100% - 10px);
+    min-width: -o-calc(100% - 10px);
+    min-width: -ms-calc(100% - 10px);
+    min-width: calc(100% - 10px);
+    max-width: -webkit-calc(100% - 10px);
+    max-width: -moz-calc(100% - 10px);
+    max-width: -o-calc(100% - 10px);
+    max-width: -ms-calc(100% - 10px);
+    max-width: calc(100% - 10px);
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding: 0;
+    padding-bottom: 5px;
+    overflow: hidden;
+    border: none;
+    border-bottom: 1px dashed #000;
+    outline: none;
+    font-family: Arial, "Helvatica Neue", Arial, Helvetica, sans-serif;
+    color: #000;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+@media only screen and (min-width:1200px) {
+    /* XL */
+    .FooterMenuleriSutunlariBaslikAlani {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    /* L */
+    .FooterMenuleriSutunlariBaslikAlani {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    /* M */
+    .FooterMenuleriSutunlariBaslikAlani {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    /* S */
+    .FooterMenuleriSutunlariBaslikAlani {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:574px) {
+    /* XS */
+    .FooterMenuleriSutunlariBaslikAlani {
+        font-size: 12px;
+    }
+}
+
+.FooterMenuleriSutunlariMenulerAlani {
+    display: block;
+    width: -webkit-calc(100% - 10px);
+    width: -moz-calc(100% - 10px);
+    width: -o-calc(100% - 10px);
+    width: -ms-calc(100% - 10px);
+    width: calc(100% - 10px);
+    min-width: -webkit-calc(100% - 10px);
+    min-width: -moz-calc(100% - 10px);
+    min-width: -o-calc(100% - 10px);
+    min-width: -ms-calc(100% - 10px);
+    min-width: calc(100% - 10px);
+    max-width: -webkit-calc(100% - 10px);
+    max-width: -moz-calc(100% - 10px);
+    max-width: -o-calc(100% - 10px);
+    max-width: -ms-calc(100% - 10px);
+    max-width: calc(100% - 10px);
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    font-family: Arial, "Helvatica Neue", Arial, Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+@media only screen and (min-width:1200px) {
+    /* XL */
+    .FooterMenuleriSutunlariMenulerAlani {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    /* L */
+    .FooterMenuleriSutunlariMenulerAlani {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    /* M */
+    .FooterMenuleriSutunlariMenulerAlani {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    /* S */
+    .FooterMenuleriSutunlariMenulerAlani {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:574px) {
+    /* XS */
+    .FooterMenuleriSutunlariMenulerAlani {
+        font-size: 12px;
+    }
+}
+
+.FooterMenuleriSutunlariMenulerAlani a {
+    font-family: Arial, "Helvatica Neue", Arial, Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.FooterMenuleriSutunlariMenulerAlani a:link,
+.FooterMenuleriSutunlariMenulerAlani a:active,
+.FooterMenuleriSutunlariMenulerAlani a:visited {
+    font-family: Arial, "Helvatica Neue", Arial, Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.FooterMenuleriSutunlariMenulerAlani a:hover {
+    font-family: Arial, "Helvatica Neue", Arial, Helvetica, sans-serif;
+    color: #000;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+#FooterAltMetniAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+}
+
+#FooterAltMetniSinirlamaAlani {
+    display: block;
+    width: -webkit-calc(100% - 10px);
+    width: -moz-calc(100% - 10px);
+    width: -o-calc(100% - 10px);
+    width: -ms-calc(100% - 10px);
+    width: calc(100% - 10px);
+    min-width: -webkit-calc(100% - 10px);
+    min-width: -moz-calc(100% - 10px);
+    min-width: -o-calc(100% - 10px);
+    min-width: -ms-calc(100% - 10px);
+    min-width: calc(100% - 10px);
+    max-width: -webkit-calc(100% - 10px);
+    max-width: -moz-calc(100% - 10px);
+    max-width: -o-calc(100% - 10px);
+    max-width: -ms-calc(100% - 10px);
+    max-width: calc(100% - 10px);
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    font-family: Arial, "Helvatica Neue", Arial, Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media only screen and (min-width:1200px) {
+    /* XL */
+    #FooterAltMetniSinirlamaAlani {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    /* L */
+    #FooterAltMetniSinirlamaAlani {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    /* M */
+    #FooterAltMetniSinirlamaAlani {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    /* S */
+    #FooterAltMetniSinirlamaAlani {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:574px) {
+    /* XS */
+    #FooterAltMetniSinirlamaAlani {
+        font-size: 12px;
+    }
+}
+
+#FooterAltLogolarAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 10px;
+    border: none;
+    outline: none;
+    line-height: 100%;
+    background-color: #fff;
+    text-align: center;
+}
+
+#FooterAltLogolarSinirlamaAlani {
+    display: block;
+    width: -webkit-calc(100% - 10px);
+    width: -moz-calc(100% - 10px);
+    width: -o-calc(100% - 10px);
+    width: -ms-calc(100% - 10px);
+    width: calc(100% - 10px);
+    min-width: -webkit-calc(100% - 10px);
+    min-width: -moz-calc(100% - 10px);
+    min-width: -o-calc(100% - 10px);
+    min-width: -ms-calc(100% - 10px);
+    min-width: calc(100% - 10px);
+    max-width: -webkit-calc(100% - 10px);
+    max-width: -moz-calc(100% - 10px);
+    max-width: -o-calc(100% - 10px);
+    max-width: -ms-calc(100% - 10px);
+    max-width: calc(100% - 10px);
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#FooterAltRapidSslLogosuAlani {
+    display: inline-block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#FooterAltRapidSslLogosuAlani img {
+    display: block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#FooterAltGuvenliAlisverisLogosuAlani {
+    display: inline-block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#FooterAltGuvenliAlisverisLogosuAlani img {
+    display: block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#FooterAlt3DSecureLogosuAlani {
+    display: inline-block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#FooterAlt3DSecureLogosuAlani img {
+    display: block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#FooterAltBonusCardLogosuAlani {
+    display: inline-block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#FooterAltBonusCardLogosuAlani img {
+    display: block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#FooterAltMaximumCardLogosuAlani {
+    display: inline-block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#FooterAltMaximumCardLogosuAlani img {
+    display: block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#FooterAltWordCardLogosuAlani {
+    display: inline-block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#FooterAltWordCardLogosuAlani img {
+    display: block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#FooterAltCardFinansLogosuAlani {
+    display: inline-block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#FooterAltCardFinansLogosuAlani img {
+    display: block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#FooterAltAxessCardLogosuAlani {
+    display: inline-block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#FooterAltAxessCardLogosuAlani img {
+    display: block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#FooterAltParafCardLogosuAlani {
+    display: inline-block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#FooterAltParafCardLogosuAlani img {
+    display: block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#FooterAltVisaCardLogosuAlani {
+    display: inline-block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#FooterAltVisaCardLogosuAlani img {
+    display: block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#FooterAltMasterCardLogosuAlani {
+    display: inline-block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#FooterAltMasterCardLogosuAlani img {
+    display: block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#FooterAltAmericanExpressLogosuAlani {
+    display: inline-block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#FooterAltAmericanExpressLogosuAlani img {
+    display: block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#FooterAltTurkTelekomLogosuAlani {
+    display: inline-block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#FooterAltTurkTelekomLogosuAlani img {
+    display: block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#FooterAltTurkcellLogosuAlani {
+    display: inline-block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#FooterAltTurkcellLogosuAlani img {
+    display: block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#FooterAltVodafoneLogosuAlani {
+    display: inline-block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#FooterAltVodafoneLogosuAlani img {
+    display: block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#FooterAltWireCardLogosuAlani {
+    display: inline-block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#FooterAltWireCardLogosuAlani img {
+    display: block;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    height: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}

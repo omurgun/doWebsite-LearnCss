@@ -1,0 +1,533 @@
+@charset "utf-8";
+@import 'Header.css';
+@import 'Footer.css';
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: Arial, "Helvatica Neue", Arial, Helvetica, sans-serif;
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media only screen and (min-width:1200px) {
+    /* XL */
+    body {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    /* L */
+    body {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    /* M */
+    body {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    /* S */
+    body {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:574px) {
+    /* XS */
+    body {
+        font-size: 12px;
+    }
+}
+
+#TumSayfaAlani {
+    position: relative;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+main {
+    position: relative;
+    display: block;
+    z-index: 98;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    top: 148px;
+    left: 0;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    vertical-align: top;
+    text-align: center;
+}
+
+#SonucSayfalariAlani {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: #eee;
+    vertical-align: top;
+    text-align: center;
+}
+
+@media only screen and (min-width:1200px) {
+    /* XL */
+    #SonucSayfalariAlani {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    /* L M S XS */
+    #SonucSayfalariAlani {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+#SonucSayfalariSinirlamaAlani {
+    position: relative;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    border: 1px solid #ddd;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media only screen and (min-width:1200px) {
+    /* XL */
+    #SonucSayfalariSinirlamaAlani {
+        width: -webkit-calc(1175px - 12px);
+        width: -moz-calc(1175px - 12px);
+        width: -o-calc(1175px - 12px);
+        width: -ms-calc(1175px - 12px);
+        width: calc(1175px - 12px);
+        min-width: -webkit-calc(1175px - 12px);
+        min-width: -moz-calc(1175px - 12px);
+        min-width: -o-calc(1175px - 12px);
+        min-width: -ms-calc(1175px - 12px);
+        min-width: calc(1175px - 12px);
+        max-width: -webkit-calc(1175px - 12px);
+        max-width: -moz-calc(1175px - 12px);
+        max-width: -o-calc(1175px - 12px);
+        max-width: -ms-calc(1175px - 12px);
+        max-width: calc(1175px - 12px);
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    /* L M S XS */
+    #SonucSayfalariSinirlamaAlani {
+        width: -webkit-calc(100% - 12px);
+        width: -moz-calc(100% - 12px);
+        width: -o-calc(100% - 12px);
+        width: -ms-calc(100% - 12px);
+        width: calc(100% - 12px);
+        min-width: -webkit-calc(100% - 12px);
+        min-width: -moz-calc(100% - 12px);
+        min-width: -o-calc(100% - 12px);
+        min-width: -ms-calc(100% - 12px);
+        min-width: calc(100% - 12px);
+        max-width: -webkit-calc(100% - 12px);
+        max-width: -moz-calc(100% - 12px);
+        max-width: -o-calc(100% - 12px);
+        max-width: -ms-calc(100% - 12px);
+        max-width: calc(100% - 12px);
+    }
+}
+
+#SonucSayfalariBilgiAlani {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: top;
+}
+
+@media only screen and (min-width:1200px) {
+    /* XL */
+    #SonucSayfalariBilgiAlani {
+        width: -webkit-calc(100% - 40px);
+        width: -moz-calc(100% - 40px);
+        width: -o-calc(100% - 40px);
+        width: -ms-calc(100% - 40px);
+        width: calc(100% - 40px);
+        min-width: -webkit-calc(100% - 40px);
+        min-width: -moz-calc(100% - 40px);
+        min-width: -o-calc(100% - 40px);
+        min-width: -ms-calc(100% - 40px);
+        min-width: calc(100% - 40px);
+        max-width: -webkit-calc(100% - 40px);
+        max-width: -moz-calc(100% - 40px);
+        max-width: -o-calc(100% - 40px);
+        max-width: -ms-calc(100% - 40px);
+        max-width: calc(100% - 40px);
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    /* L */
+    #SonucSayfalariBilgiAlani {
+        width: -webkit-calc(100% - 36px);
+        width: -moz-calc(100% - 36px);
+        width: -o-calc(100% - 36px);
+        width: -ms-calc(100% - 36px);
+        width: calc(100% - 36px);
+        min-width: -webkit-calc(100% - 36px);
+        min-width: -moz-calc(100% - 36px);
+        min-width: -o-calc(100% - 36px);
+        min-width: -ms-calc(100% - 36px);
+        min-width: calc(100% - 36px);
+        max-width: -webkit-calc(100% - 36px);
+        max-width: -moz-calc(100% - 36px);
+        max-width: -o-calc(100% - 36px);
+        max-width: -ms-calc(100% - 36px);
+        max-width: calc(100% - 36px);
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    /* M */
+    #SonucSayfalariBilgiAlani {
+        width: -webkit-calc(100% - 32px);
+        width: -moz-calc(100% - 32px);
+        width: -o-calc(100% - 32px);
+        width: -ms-calc(100% - 32px);
+        width: calc(100% - 32px);
+        min-width: -webkit-calc(100% - 32px);
+        min-width: -moz-calc(100% - 32px);
+        min-width: -o-calc(100% - 32px);
+        min-width: -ms-calc(100% - 32px);
+        min-width: calc(100% - 32px);
+        max-width: -webkit-calc(100% - 32px);
+        max-width: -moz-calc(100% - 32px);
+        max-width: -o-calc(100% - 32px);
+        max-width: -ms-calc(100% - 32px);
+        max-width: calc(100% - 32px);
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    /* S */
+    #SonucSayfalariBilgiAlani {
+        width: -webkit-calc(100% - 28px);
+        width: -moz-calc(100% - 28px);
+        width: -o-calc(100% - 28px);
+        width: -ms-calc(100% - 28px);
+        width: calc(100% - 28px);
+        min-width: -webkit-calc(100% - 28px);
+        min-width: -moz-calc(100% - 28px);
+        min-width: -o-calc(100% - 28px);
+        min-width: -ms-calc(100% - 28px);
+        min-width: calc(100% - 28px);
+        max-width: -webkit-calc(100% - 28px);
+        max-width: -moz-calc(100% - 28px);
+        max-width: -o-calc(100% - 28px);
+        max-width: -ms-calc(100% - 28px);
+        max-width: calc(100% - 28px);
+    }
+}
+
+@media only screen and (max-width:574px) {
+    /* XS */
+    #SonucSayfalariBilgiAlani {
+        width: -webkit-calc(100% - 24px);
+        width: -moz-calc(100% - 24px);
+        width: -o-calc(100% - 24px);
+        width: -ms-calc(100% - 24px);
+        width: calc(100% - 24px);
+        min-width: -webkit-calc(100% - 24px);
+        min-width: -moz-calc(100% - 24px);
+        min-width: -o-calc(100% - 24px);
+        min-width: -ms-calc(100% - 24px);
+        min-width: calc(100% - 24px);
+        max-width: -webkit-calc(100% - 24px);
+        max-width: -moz-calc(100% - 24px);
+        max-width: -o-calc(100% - 24px);
+        max-width: -ms-calc(100% - 24px);
+        max-width: calc(100% - 24px);
+    }
+}
+
+#SonucSayfalariIslemIconuAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+}
+
+@media only screen and (min-width:1200px) {
+    /* XL */
+    #SonucSayfalariIslemIconuAlani {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    /* L */
+    #SonucSayfalariIslemIconuAlani {
+        margin-top: 35px;
+        margin-bottom: 18px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    /* M */
+    #SonucSayfalariIslemIconuAlani {
+        margin-top: 30px;
+        margin-bottom: 16px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    /* S */
+    #SonucSayfalariIslemIconuAlani {
+        margin-top: 25px;
+        margin-bottom: 14px;
+    }
+}
+
+@media only screen and (max-width:574px) {
+    /* XS */
+    #SonucSayfalariIslemIconuAlani {
+        margin-top: 20px;
+        margin-bottom: 12px;
+    }
+}
+
+#SonucSayfalariIslemIconuAlani img {
+    display: block;
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    height: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+#SonucSayfalariBaslikAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvatica Neue", Arial, Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+@media only screen and (min-width:1200px) {
+    /* XL */
+    #SonucSayfalariBaslikAlani {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    /* L */
+    #SonucSayfalariBaslikAlani {
+        font-size: 13px;
+        margin-bottom: 18px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    /* M */
+    #SonucSayfalariBaslikAlani {
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    /* S */
+    #SonucSayfalariBaslikAlani {
+        font-size: 12px;
+        margin-bottom: 14px;
+    }
+}
+
+@media only screen and (max-width:574px) {
+    /* XS */
+    #SonucSayfalariBaslikAlani {
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+}
+
+#SonucSafalariIcerikAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-family: Arial, "Helvatica Neue", Arial, Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 120%;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+@media only screen and (min-width:1200px) {
+    /* XL */
+    #SonucSafalariIcerikAlani {
+        font-size: 14px;
+        margin-bottom: 45px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    /* L */
+    #SonucSafalariIcerikAlani {
+        font-size: 13px;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    /* M */
+    #SonucSafalariIcerikAlani {
+        font-size: 12px;
+        margin-bottom: 35px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    /* S */
+    #SonucSafalariIcerikAlani {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:574px) {
+    /* XS */
+    #SonucSafalariIcerikAlani {
+        font-size: 12px;
+        margin-bottom: 25px;
+    }
+}
+
+#SonucSafalariIcerikAlani a {
+    font-family: Arial, "Helvatica Neue", Arial, Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#SonucSafalariIcerikAlani a {
+    font-family: Arial, "Helvatica Neue", Arial, Helvetica, sans-serif;
+    color: #646464;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#SonucSafalariIcerikAlani a:hover {
+    font-family: Arial, "Helvatica Neue", Arial, Helvetica, sans-serif;
+    color: #000;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: underline;
+}
