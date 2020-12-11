@@ -890,3 +890,317 @@
             font-size: 12px;
         }
     }
+    
+    #TamSayfaCerceveAlaniIciBankaHesaplariAlani {
+        position: relative;
+        display: block;
+        float: left;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        border: none;
+        outline: none;
+        background-color: #fff;
+        text-align: center;
+        vertical-align: top;
+    }
+    
+    #TamSayfaCerceveAlaniIciBankaHesaplariDengelemeAlani {
+        position: relative;
+        display: block;
+        float: left;
+        width: -webkit-calc(100% + 10px);
+        width: -moz-calc(100% + 10px);
+        width: -o-calc(100% + 10px);
+        width: -ms-calc(100% + 10px);
+        width: calc(100% + 10px);
+        min-width: -webkit-calc(100% + 10px);
+        min-width: -moz-calc(100% + 10px);
+        min-width: -o-calc(100% + 10px);
+        min-width: -ms-calc(100% + 10px);
+        min-width: calc(100% + 10px);
+        max-width: -webkit-calc(100% + 10px);
+        max-width: -moz-calc(100% + 10px);
+        max-width: -o-calc(100% + 10px);
+        max-width: -ms-calc(100% + 10px);
+        max-width: calc(100% + 10px);
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+        top: 0;
+        left: -5px;
+        overflow: hidden;
+        border: none;
+        outline: none;
+        background-color: #fff;
+        text-align: center;
+        vertical-align: top;
+    }
+    
+    .TamSaydaCerceveAlaniIciBankaHesabiSinirlamaAlani {
+        display: inline-block;
+        float: left;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding: 0;
+        padding: 10px;
+        overflow: hidden;
+        border: none;
+        border: 1px solid #ccc;
+        outline: none;
+        background-color: #fff;
+        text-align: center;
+        vertical-align: top;
+    }
+    
+    @media only screen and (min-width:992px) {
+        /* XL L */
+        .TamSaydaCerceveAlaniIciBankaHesabiSinirlamaAlani {
+            width: -webkit-calc(33.33% - 32px);
+            width: -moz-calc(33.33% - 32px);
+            width: -o-calc(33.33% - 32px);
+            width: -ms-calc(33.33% - 32px);
+            width: calc(33.33% - 32px);
+            min-width: -webkit-calc(33.33% - 32px);
+            min-width: -moz-calc(33.33% - 32px);
+            min-width: -o-calc(33.33% - 32px);
+            min-width: -ms-calc(33.33% - 32px);
+            min-width: calc(33.33% - 32px);
+            max-width: -webkit-calc(33.33% - 32px);
+            max-width: -moz-calc(33.33% - 32px);
+            max-width: -o-calc(33.33% - 32px);
+            max-width: -ms-calc(33.33% - 32px);
+            max-width: calc(33.33% - 32px);
+        }
+    }
+    
+    @media only screen and (min-width:768px) and (max-width:991px) {
+        /* M */
+        .TamSaydaCerceveAlaniIciBankaHesabiSinirlamaAlani {
+            width: -webkit-calc(50% - 32px);
+            width: -moz-calc(50% - 32px);
+            width: -o-calc(50% - 32px);
+            width: -ms-calc(50% - 32px);
+            width: calc(50% - 32px);
+            min-width: -webkit-calc(50% - 32px);
+            min-width: -moz-calc(50% - 32px);
+            min-width: -o-calc(50% - 32px);
+            min-width: -ms-calc(50% - 32px);
+            min-width: calc(50% - 32px);
+            max-width: -webkit-calc(50% - 32px);
+            max-width: -moz-calc(50% - 32px);
+            max-width: -o-calc(50% - 32px);
+            max-width: -ms-calc(50% - 32px);
+            max-width: calc(50% - 32px);
+        }
+    }
+    
+    @media only screen and (max-width:767px) {
+        /* S xS */
+        .TamSaydaCerceveAlaniIciBankaHesabiSinirlamaAlani {
+            width: -webkit-calc(100% - 32px);
+            width: -moz-calc(100% - 32px);
+            width: -o-calc(100% - 32px);
+            width: -ms-calc(100% - 32px);
+            width: calc(100% - 32px);
+            min-width: -webkit-calc(100% - 32px);
+            min-width: -moz-calc(100% - 32px);
+            min-width: -o-calc(100% - 32px);
+            min-width: -ms-calc(100% - 32px);
+            min-width: calc(100% - 32px);
+            max-width: -webkit-calc(100% - 32px);
+            max-width: -moz-calc(100% - 32px);
+            max-width: -o-calc(100% - 32px);
+            max-width: -ms-calc(100% - 32px);
+            max-width: calc(100% - 32px);
+        }
+    }
+    
+    .TamSayfaCerceveAlaniIciBankaHesabiLogosuAlani {
+        display: block;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        height: 30px;
+        min-height: 30px;
+        max-height: 30px;
+        margin: 0 auto;
+        padding: 0;
+        padding-bottom: 10px;
+        overflow: hidden;
+        border: none;
+        outline: none;
+        background-color: #fff;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: top;
+    }
+    
+    .TamSayfaCerceveAlaniIciBankaHesabiLogosuAlani img {
+        display: block;
+        width: auto;
+        height: 30px;
+        min-height: 30px;
+        max-height: 30px;
+        margin: 0 auto;
+        padding: 0;
+        border: none;
+        outline: none;
+    }
+    
+    .TamSayfaCerceveAlaniIciBankaHesabiTablosu {
+        display: block;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        border: none;
+        outline: none;
+        background-color: #fff;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: top;
+    }
+    
+    .TamSayfaCerceveAlaniIciBankaHesabiTablosuBaslikMetniSutunu {
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        border: none;
+        outline: none;
+        background-color: #fff;
+        font-family: Arial, "Helvatica Neue", Arial, Helvetica, sans-serif;
+        color: #646464;
+        line-height: 125%;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        text-align: left;
+        text-decoration: none;
+        vertical-align: top;
+    }
+    
+    @media only screen and (min-width:1200px) {
+        /* XL */
+        .TamSayfaCerceveAlaniIciBankaHesabiTablosuBaslikMetniSutunu {
+            width: 60px;
+            min-width: 60px;
+            max-width: 60px;
+            font-size: 14px;
+        }
+    }
+    
+    @media only screen and (min-width:992px) and (max-width:1199px) {
+        /* l */
+        .TamSayfaCerceveAlaniIciBankaHesabiTablosuBaslikMetniSutunu {
+            width: 50px;
+            min-width: 50px;
+            max-width: 50px;
+            font-size: 13px;
+        }
+    }
+    
+    @media only screen and (max-width:991px) {
+        /* M S XS */
+        .TamSayfaCerceveAlaniIciBankaHesabiTablosuBaslikMetniSutunu {
+            width: 50px;
+            min-width: 50px;
+            max-width: 50px;
+            font-size: 12px;
+        }
+    }
+    
+    .TamSayfaCerceveAlaniIciBankaHesabiTablosuNoktaMetniSutunu {
+        width: 10px;
+        min-width: 10px;
+        max-width: 10px;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        border: none;
+        outline: none;
+        background-color: #fff;
+        font-family: Arial, "Helvatica Neue", Arial, Helvetica, sans-serif;
+        color: #646464;
+        line-height: 125%;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        text-align: left;
+        text-decoration: none;
+        vertical-align: top;
+    }
+    
+    @media only screen and (min-width:1200px) {
+        /* XL */
+        .TamSayfaCerceveAlaniIciBankaHesabiTablosuNoktaMetniSutunu {
+            font-size: 14px;
+        }
+    }
+    
+    @media only screen and (min-width:992px) and (max-width:1199px) {
+        /* l */
+        .TamSayfaCerceveAlaniIciBankaHesabiTablosuNoktaMetniSutunu {
+            font-size: 13px;
+        }
+    }
+    
+    @media only screen and (max-width:991px) {
+        /* M S XS */
+        .TamSayfaCerceveAlaniIciBankaHesabiTablosuNoktaMetniSutunu {
+            font-size: 12px;
+        }
+    }
+    
+    .TamSayfaCerceveAlaniIciBankaHesabiTablosuIcerikMetniSutunu {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        border: none;
+        outline: none;
+        background-color: #fff;
+        font-family: Arial, "Helvatica Neue", Arial, Helvetica, sans-serif;
+        color: #646464;
+        line-height: 125%;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        text-align: left;
+        text-decoration: none;
+        vertical-align: top;
+    }
+    
+    @media only screen and (min-width:1200px) {
+        /* XL */
+        .TamSayfaCerceveAlaniIciBankaHesabiTablosuIcerikMetniSutunu {
+            font-size: 14px;
+        }
+    }
+    
+    @media only screen and (min-width:992px) and (max-width:1199px) {
+        /* l */
+        .TamSayfaCerceveAlaniIciBankaHesabiTablosuIcerikMetniSutunu {
+            font-size: 13px;
+        }
+    }
+    
+    @media only screen and (max-width:991px) {
+        /* M S XS */
+        .TamSayfaCerceveAlaniIciBankaHesabiTablosuIcerikMetniSutunu {
+            font-size: 12px;
+        }
+    }
